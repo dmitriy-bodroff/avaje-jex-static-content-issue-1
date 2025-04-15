@@ -20,7 +20,7 @@
 
         <avaje-inject.version>11.4</avaje-inject.version>
         <avaje-http.version>3.2</avaje-http.version>
-        <avaje-jex.version>3.1</avaje-jex.version>
+        <avaje-jex.version>3.2-RC1</avaje-jex.version>
 
         <lombok.version>1.18.38</lombok.version>
 
@@ -155,7 +155,7 @@
                         <path>
                             <groupId>io.avaje</groupId>
                             <artifactId>avaje-http-jex-generator</artifactId>
-                            <version>${avaje-jex.version}</version>
+                            <version>${avaje-http.version}</version>
                         </path>
                     </annotationProcessorPaths>
                 </configuration>
